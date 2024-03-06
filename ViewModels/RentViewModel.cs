@@ -9,10 +9,8 @@ using System.Windows.Input;
 
 namespace EsriCarRentalApp.ViewModels
 {
-    public class RentViewModel : INotifyPropertyChanged, IRentalViewModel
+    public class RentViewModel : ViewModelBase, IRentalViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         private Car selectedCar;
         private RentingService rentingService;
         private IMediator mediator;
@@ -278,11 +276,6 @@ namespace EsriCarRentalApp.ViewModels
 
             this.SelectedCar = this.Cars.FirstOrDefault();
             this.SelectedHiredCar = this.HiredCars.FirstOrDefault();
-        }
-
-        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         public ICommand RentCommand { get; private set; }

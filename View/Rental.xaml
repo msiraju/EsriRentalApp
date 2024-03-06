@@ -12,7 +12,11 @@
     </UserControl.DataContext>-->
     <Grid>
         <Grid Background="AliceBlue">
-            <TextBlock Text="UAE Car Rentals" FontSize="24" Margin="10" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+            <StackPanel>
+                <Viewbox>
+                    <TextBlock Text="UAE Car Rentals" FontSize="24" Margin="10" FontWeight="Bold" Foreground="Black" HorizontalAlignment="Center" VerticalAlignment="Top"/>
+                </Viewbox>
+            </StackPanel>
         </Grid>
         <Viewbox>
         <TabControl>

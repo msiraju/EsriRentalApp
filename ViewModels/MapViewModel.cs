@@ -12,10 +12,8 @@ using System.Linq;
 
 namespace EsriCarRentalApp.ViewModels
 {
-    public class MapViewModel : INotifyPropertyChanged, IMapViewModel
+    public class MapViewModel : ViewModelBase, IMapViewModel
     {
-        public event PropertyChangedEventHandler PropertyChanged;
-
         private MapView myMapView;
         private Envelope uaeEnvelope;
         private IMediator mediator;
@@ -128,11 +126,6 @@ namespace EsriCarRentalApp.ViewModels
             MyMapView.SetViewpoint(new Viewpoint(uaeEnvelope));
             MyMapView.Map.MaxExtent = uaeEnvelope;
             this.localOverlayCollection = new Dictionary<Car, GraphicsOverlay>();
-        }
-
-        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
         private void AddCarIconsToMap(List<Car> cars)
