@@ -10,8 +10,11 @@
 
 **Dependencies Used:** 
 Esri.ArcGISRuntime.WPF - ArcGIS Map
+
 SimpleInjector - Mediator pattern and Container for View and View models (DI)
+
 MSTest.TestFramework - Unit testing
+
 Moq - Mocking inputs with fake data
 
 
