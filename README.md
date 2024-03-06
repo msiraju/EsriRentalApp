@@ -1,3 +1,7 @@
+**App Executable:** https://github.com/msiraju/EsriRentalApp/blob/main/Release.zip (Download, unzip and Find EsriCarRentalApp.exe)
+
+**Demo Video:** https://drive.google.com/file/d/1A8FJmncQQ1lc8w5HeLEIGdVeAnseuQLr/view?usp=sharing
+
 **UML class diagram:** https://github.com/msiraju/EsriRentalApp/blob/main/EsriCarRental-ClassDiagram.png
 
 **Main Project:** https://github.com/msiraju/EsriRentalApp.git
