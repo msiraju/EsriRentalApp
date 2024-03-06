@@ -24,7 +24,7 @@ namespace EsriCarRentalApp.ViewModels
         private CarStatus carStatus;
         private bool mapTap;
 
-        private MapView MyMapView
+        public MapView MyMapView
         {
             get => myMapView;
             set => myMapView = value;
@@ -130,7 +130,7 @@ namespace EsriCarRentalApp.ViewModels
             this.localOverlayCollection = new Dictionary<Car, GraphicsOverlay>();
         }
 
-        protected virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
+        public virtual void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }

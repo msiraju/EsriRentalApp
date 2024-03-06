@@ -34,7 +34,7 @@ namespace EsriCarRentalApp
             return returned;
         }
 
-        internal Car GetCar(Car car)
+        public Car GetCar(Car car)
         {
             return this.cars.FirstOrDefault(x => x.Guid == car.Guid);
         }

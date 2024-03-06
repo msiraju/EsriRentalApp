@@ -11,7 +11,7 @@ namespace EsriCarRentalApp
             this.Guid = System.Guid.NewGuid().ToString();
         }
 
-        public string Guid { get; private set; }
+        public string Guid { get; set; }
         public string Model { get; set; }
         public bool IsAvailable { get; set; }
         public DateTime BookingTime { get; set; }

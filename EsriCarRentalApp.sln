@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriCarRentalApp", "EsriCarRentalApp.csproj", "{675C55DD-F689-44C7-B211-43694EDA7EFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EsriCarRentalAppTests", "EsriCarRentalAppTests\EsriCarRentalAppTests.csproj", "{B63887FF-A072-44BB-8761-A1D957D5C390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{675C55DD-F689-44C7-B211-43694EDA7EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675C55DD-F689-44C7-B211-43694EDA7EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675C55DD-F689-44C7-B211-43694EDA7EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B63887FF-A072-44BB-8761-A1D957D5C390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B63887FF-A072-44BB-8761-A1D957D5C390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B63887FF-A072-44BB-8761-A1D957D5C390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B63887FF-A072-44BB-8761-A1D957D5C390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
